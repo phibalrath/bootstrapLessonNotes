@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<meta charset="UTF-8">
+		<!-- Link to Bootstrap's CSS -->
+ 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+ 		<!-- Link to Animate the H1 Tag indicated by the class="animated fadeDown" -->
+ 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+ 		<!-- Link to Good_Coffee CSS Sheet -->
+ 		<link rel="stylesheet" type="text/css" href="main.css">
+
+		<title>Strapping Good Cofffee</title>
+	</head>
+	<body>
+
+	<!-- Navigation Bar denoted by the class="navbar" -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+		<a class="navbar-brand" href="#">Navbar</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+			  <li class="nav-item active">
+			    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link" href="#">Link</a>
+			  </li>
+			  <li class="nav-item dropdown">
+			    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			      Dropdown
+			    </a>
+			    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+			      <a class="dropdown-item" href="#">Action</a>
+			      <a class="dropdown-item" href="#">Another action</a>
+			      <div class="dropdown-divider"></div>
+			      <a class="dropdown-item" href="#">Something else here</a>
+			    </div>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+			  </li>
+			</ul>
+		<form class="form-inline my-2 my-lg-0">
+		  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+		  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+		</form>
+		</div>
+	</nav>
+	<!-- End of Navbar -->
+	
+	<!-- Default Jumbotron provided by Boostrap -->
+	<!-- <div class="jumbotron">
+		  <h1 class="display-4">Hello, world!</h1>
+		  <br />
+		  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+		  <hr class="my-4">
+		  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+		  <div class="order-button">
+   			<a href="#" class="btn btn-primary">Order Coffee Today!</a>
+		  </div>
+		  <button type="button" class="btn btn-lg btn-danger">Danger</button>
+		</div>	 -->
+
+	<!-- Banner: Jumbotron denoted by the class="jumbotron" -->
+		<div class="jumbotron">
+    		<h1 class="animated fadeInDown"> Good Coffee Co.</h1>
+		</div>
+
+	<!-- The container-fluid class will span the entire width of the page. It's like setting width:100% in CSS -->
+		<div class="container-fluid mission">
+  		<div class="row">
+    		<h3> Here at Good Coffee Co we are passionate about serving the best coffee you'll ever taste.
+    		<br> Our staff are self-described coffee-nerds with impeccable technique.
+    		<br> Stop by today and experience the Good Coffee difference. </h3>
+  		</div> 
+		</div>
+
+	<!-- In this feature, you are creating 3 columns. You have an image in each column with a corresponding short paragraph -->
+		<div class="container features">
+		    <div class="row">
+		        <div class="col-xs-12 col-sm-4">
+		            <img class="img-fluid" src="http://upload.wikimedia.org/wikipedia/commons/3/3f/Coffee_Beans.jpg">
+		    	    <p> The freshest locally sourced coffee. Organic and Fair Trade certified</p>	
+		    	</div>
+		    	<div class="col-xs-12 col-sm-4">
+		    	    <img class="img-fluid" src="http://upload.wikimedia.org/wikipedia/commons/3/3f/Coffee_Beans.jpg">
+		    	    <p> A perfect environment to meet with a friend or be alone and get work done.</p>
+		    	</div>
+		    	<div class="col-xs-12 col-sm-4">
+		    	    <img class="img-fluid" src="http://upload.wikimedia.org/wikipedia/commons/3/3f/Coffee_Beans.jpg">
+		    	    <p> Quality hand-crafted espresso shots pulled with the greatest of care.</p>
+		    	</div>
+		    </div>
+		</div>
+		
+		<!-- This is an example of an embedded video that you put on your site, this div can be put in rows/columns to adjust position or thourgh pure CSS -->
+			<!-- <div class="embed-responsive embed-responsive-16by9">
+			  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" style="height: 300px; width: 300px"></iframe>
+			</div> -->
+		
+
+	<!-- Comment: A column that spans the entire page because this column takes up the entire 12 value of the Grid	 -->
+	<!-- <div class="container">
+	  <div class="row">
+	    <div class="col-md-12">
+	      <p>
+	      	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
+	        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+	        nostrud exercitation ullamco laboris nisi ut aliquip exea commodo consequat.
+	      </p>
+	      <p>
+	      	Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+	        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+	        culpa qui officia deserunt mollit anim id est laborum.
+	      </p>
+	    </div>
+	  </div>
+	</div> -->
+
+	<!-- Comment: 2 Columns Side by Side denoted by 2 classes of "col-md-6" divs-->
+	<!-- <div class="container">
+	  <div class="row">
+	    <div class="col-md-6">
+	      <p>
+	      	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
+	        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+	        nostrud exercitation ullamco laboris nisi ut aliquip exea commodo consequat.
+	      </p>
+	    </div>
+	    
+	    <div class="col-md-6">
+	     	 <p>
+	      	Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+	        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+	        culpa qui officia deserunt mollit anim id est laborum.
+	      </p>
+	     </div>
+	  </div>
+	</div>
+ -->
+
+ 	<!-- Comment: 3 images side by side. There are 3 columns with an image in each one -->
+	<!-- <div class="container" >
+		<div class="row" >
+			<div class="col-md-4" >
+				<img class="img-rounded" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/190208-delish-ramen-horizontal-093-1550096715.jpg?crop=1xw:0.9995002498750624xh;center,top&resize=480:*" style="height: 250px; width: 250px;" />
+			</div>
+
+			<div class="col-md-4" >
+				<img src="https://iheartumami.com/wp-content/uploads/2019/01/Whole30-Tentenman-Ramen-with-Chicken-I-Heart-Umami-1-500x500.jpg" style="height: 250px; width: 250px">
+			</div>
+
+			<div class="col-md-4" >
+				<img src="https://target.scene7.com/is/image/Target/GUEST_b0467189-0fa4-41b9-92f7-31264d8159c0?wid=488&hei=488&fmt=pjpeg" style="height: 250px; width: 250px">
+			</div>
+
+		</div>
+	</div> -->
+
+	<!-- Adds a footer component to your site. Here you can link to other sheets or sites. Composed of 3 columns with 4 grid value each -->
+		<footer class="container-fluid" style="background-color: lightblue">
+			  <div class="row">
+			    <div class="col-md-4">© Good Coffee Co. 2014 </div>
+			    <div class="col-md-4">
+			      <ul class="nav nav-pills">
+			        <li><a href="#">Contact Us &#124; </a></li>
+			        <li><a href="#">Get Support &#124; </a></li>
+			        <li><a href="#">Privacy Policy</a></li>
+			      </ul>
+			    </div>
+			    <div class="col-md-4">
+			      <p class="text-right"><a href="#">Follow Us</a></p>
+			    </div>
+			  </div>
+		</footer>
+
+
+			<!-- jQuery, Bootstrap Scripts -->
+			<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+			<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	</body>
+</html>
